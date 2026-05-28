@@ -110,13 +110,8 @@ The backend enforces per-repo limits via env:
 
 ## Deploy
 
-| Component | Recommended host                       |
-|-----------|----------------------------------------|
-| Frontend  | Vercel (zero config, push to a repo)   |
-| Backend   | Railway / Fly.io / Render (Dockerfile) |
-| Neo4j     | Neo4j Aura free tier (cloud-hosted)    |
-
-Set `NEXT_PUBLIC_API_BASE` on the frontend to your backend URL, and `FRONTEND_ORIGIN` on the backend to the deployed frontend's URL for CORS.
+15-minute, no-credit-card deploy on free tiers (Vercel + Render + Neo4j Aura).
+Step-by-step guide with the exact env vars to paste: see **[DEPLOY.md](./DEPLOY.md)**.
 
 ## What's next
 
